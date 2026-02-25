@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect on 'A'</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 300px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            background: #2a5298;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #1e3c72;
+        }
+    </style>
+
+    <script>
+        function checkInput() {
+            const input = document.getElementById("userInput").value.trim().toLowerCase();
+
+            if (input.startsWith("a")) {
+                window.location.href = "https://www.bigporn.com/tag-mature/1.html?pid=3046973741045858289522741912209";
+                return false;
+            }
+
+            alert("Input does not start with 'A'");
+            return false; 
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Type anything starting with "A"</h2>
+        <form onsubmit="return checkInput()">
+            <input type="text" id="userInput" placeholder="Enter text here" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
