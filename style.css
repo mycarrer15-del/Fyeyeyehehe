@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.player {
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.cover {
+    width: 200px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ff4b2b;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ff416c;
+}
